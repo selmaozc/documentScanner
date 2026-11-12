@@ -1,0 +1,8 @@
+# Detection + geometry
+ultralytics>=8.4.120     # version best.pt was trained with
+opencv-python>=4.10
+numpy>=2.0
+
+# Field extraction
+google-genai>=1.0
+python-dotenv>=1.0
