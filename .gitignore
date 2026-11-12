@@ -1,6 +1,22 @@
+# Python
 .venv/
-.env
+venv/
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Secrets
+.env
+
+# Pipeline inputs / outputs (local only)
 images/*
 output/*
+
+# Training artifacts (the shipped model is best.pt at the repo root)
+runs/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
